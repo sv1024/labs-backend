@@ -20,7 +20,7 @@ import static org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTest
 @DataJpaTest
 @AutoConfigureTestDatabase( replace = NONE )
 public class UserServiceTest{
-
+    //Testing
     @TestConfiguration
     static class UserServiceImpTestConfiguration{
         @Autowired
